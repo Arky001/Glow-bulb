@@ -1,0 +1,39 @@
+/* Default styles */
+img {
+  display: inline-block;
+  height: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background: blue;
+    font-size: 30px;
+}
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    img {
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+    
+    button {
+        width: 120px;
+        height: 40px;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    img {
+        height: 10rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    button {
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+    }
+}
